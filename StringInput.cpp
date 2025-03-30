@@ -14,7 +14,7 @@ int main () {
         cout << "Enter a string: ";     //gets first string
         getline(cin, string1);
 
-        cout << "Enter another string"; //gets second string
+        cout << "Enter another string: "; //gets second string
         getline(cin, string2);
 
         combo = string1 + string2;      //concatenates the two strings
